@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Tunas - Tienda de Cactus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007BFF; /* Color azul */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 10px;
+            background: #0056b3; /* Color azul más oscuro */
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .product {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .product img {
+            max-width: 100px;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            .product {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            nav {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a Mr. Tunas</h1>
+        <p>Tu tienda de cactus donde encontrarás cientos de diferentes variedades.</p>
+    </header>
+    <nav>
+        <a href="#sobre-nosotros">Inicio</a>
+        <a href="#empresa">La Empresa</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <main>
+        <section id="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>En esta web no sólo podrás comprar cactus, sino que también queremos ayudarte con consejos sobre el cuidado de los cactus y las suculentas. Las plantas dan vida y alegría al hogar u oficina.</p>
+            <p>Al regalarlas, expresamos un profundo afecto y respeto hacia la persona, además de sorprenderla...</p>
+        </section>
+        <section id="empresa">
+            <h2>La Empresa</h2>
+            <p>Nuestro vivero nació en el año 2008, con la idea de ofrecer plantas de cactus para coleccionistas. Ofrecemos cactus en casi todas las variedades y de muy fácil cuidado, con la garantía de que nuestros cactus florecen durante todo el año.</p>
+            <p>Si Ud. tiene cualquier duda sobre un cactus comprado, o algún problema con parásitos, hongos, etc., nosotros le asesoramos con una experiencia de más de 7 años en el cultivo de estas plantas.</p>
+        </section>
+        <section id="productos">
+            <h2>Productos</h2>
+            <div class="product">
+                <img src="cactus1.jpg" alt="Cactus de Navidad">
+                <div>
+                    <h3>Cactus de Navidad</h3>
+                    <p>Precio: $25</p>
+                    <p>Este cactus florece en invierno y sus flores son de colores vibrantes.</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="cactus2.jpg" alt="Cactus Saguaro">
+                <div>
+                    <h3>Cactus Saguaro</h3>
+                    <p>Precio: $50</p>
+                    <p>Un ícono del desierto, este cactus puede vivir más de 150 años.</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src="cactus3.jpg" alt="Cactus de Barril">
+                <div>
+                    <h3>Cactus de Barril</h3>
+                    <p>Precio: $30</p>
+                    <p>Con su forma distintiva, este cactus es fácil de cuidar y muy decorativo.</p>
+                </div>
+            </div>
+            <p>Consulte con nosotros, tenemos los mejores precios al por mayor y menor.</p>
+        </section>
+        <section id="contacto">
+            <h2>Contactos</h2>
+            <p>Director/Propietario: Lic. Alcides Torres</p>
+            <p>Dirección: Calle Brasil # 231 entre Del Maestro, San Lorenzo - Paraguay</p>
+            <p>Teléfonos: 595-21- 123 456</p>
+            <p>Email: <a href="mailto:info@mrtunas.net">info@mrtunas.net</a> (con delivery si estás en la UNA o cerca).</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mr. Tunas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
